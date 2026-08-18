@@ -23,12 +23,12 @@ public final class RecursosImagenes {
             try {
                 return ImageIO.read(entrada);
             } catch (IOException ex) {
-                // Si falla la carga desde el recurso, intenta la ruta física.
+                
             } finally {
                 try {
                     entrada.close();
                 } catch (IOException ex) {
-                    // No afecta el funcionamiento del juego.
+                    
                 }
             }
         }
