@@ -26,7 +26,7 @@ public final class Aplicacion {
         try {
             UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
         } catch (Exception ex) {
-            // Si no se puede cambiar la apariencia, Swing utiliza la disponible.
+            
         }
 
         UIManager.put("OptionPane.background", new Color(235, 235, 235));
